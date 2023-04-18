@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<weapons>
+
+	<weapon id_weapon="1">
+	<name>Bazooka Worms</name>
+	<physical_damage>20</physical_damage>
+	<physical_defense>30</physical_defense>
+	<magical_damage>10</magical_damage>
+	<magical_defense>20</magical_defense>
+	<level>2</level>
+	<level_min>1</level_min>
+	<rarirty>40</rarirty>
+	<cost>120</cost>
+	<hands>2</hands>
+	<weight>44</weight>
+	<durability>1</durability>
+	<uses>1</uses>
+	<ammo>1</ammo>
+	<ammo_max>1</ammo_max>
+	<class>Artificiero</class>
+	<element>Fuego</element>
+	<description>Vaya zambombazo que te mete</description>
+	</weapon>
+	
+	<weapon id_weapon="2">
+	<name>Mama's chancla</name>
+	<physical_damage>99</physical_damage>
+	<physical_defense>99</physical_defense>
+	<magical_damage>5</magical_damage>
+	<magical_defense>5</magical_defense>
+	<level>100</level>
+	<level_min>1</level_min>
+	<rarirty>10</rarirty>
+	<cost>1000</cost>
+	<hands>1</hands>
+	<weight>5.7</weight>
+	<durability>100</durability>
+	<uses>-1</uses>
+	<ammo>0</ammo>
+	<ammo_max>0</ammo_max>
+	<class>Chancla</class>
+	<element>Aereo</element>
+	<description>Muy poderosa</description>
+	</weapon>
+	
+	
+	
+	<weapon id_weapon="3">
+	<name>Merce's puñalote</name>
+	<physical_damage>0</physical_damage>
+	<physical_defense>100</physical_defense>
+	<magical_damage>100</magical_damage>
+	<magical_defense>100</magical_defense>
+	<level>20</level>
+	<level_min>100</level_min>
+	<rarirty>1</rarirty>
+	<cost>1</cost>
+	<hands>1</hands>
+	<weight>0.2</weight>
+	<durability>20</durability>
+	<uses>10</uses>
+	<ammo>1</ammo>
+	<ammo_max>1</ammo_max>
+	<class>Kinky</class>
+	<element>Tierra</element>
+	<description>Letal</description>
+	</weapon>
+	
+	
+	
+	<weapon id_weapon="4">
+	<name>Espadastola</name>
+	<physical_damage>100</physical_damage>
+	<physical_defense>100</physical_defense>
+	<magical_damage>10</magical_damage>
+	<magical_defense>10</magical_defense>
+	<level>10</level>
+	<level_min>10</level_min>
+	<rarirty>20</rarirty>
+	<cost>250</cost>
+	<hands>2</hands>
+	<weight>10</weight>
+	<durability>1000</durability>
+	<uses>1000</uses>
+	<ammo>6</ammo>
+	<ammo_max>6</ammo_max>
+	<class>Flipao</class>
+	<element>Fuego</element>
+	<description>Letal</description>
+	</weapon>
+
+</weapons>
+

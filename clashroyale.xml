@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<characters>
+	<character id_character="1">
+		<name>Archers</name>
+		<health>100</health>
+		<level>14</level>
+		<damage>1000</damage>
+	</character>
+  <character id_character="2">
+		<name>Goblin</name>
+		<health>110</health>
+		<level>7</level>
+		<damage>800</damage>
+  </character>
+	<character id_character="3">
+		<name>Giant</name>
+		<health>500</health>
+		<level>8</level>
+		<damage>700</damage>
+	</character>
+</characters>
+                                  
+
