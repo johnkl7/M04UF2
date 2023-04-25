@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+	<enemy>
+		<description>mago</description>
+		<strenght>5</strenght>
+		<health>5</health>
+	</enemy>
+	<enemy>
+		<description>tanke</description>
+		<strenght>5</strenght>
+		<health>6</health>
+	</enemy>
+	<enemy>
+		<description>range</description>
+		<strenght>5</strenght>
+		<health>7</health>
+	</enemy>
+</enemies>
