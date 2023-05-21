@@ -1,0 +1,25 @@
+{
+  "enemies": {
+	    "enemy": [
+			      {
+						  "name": "Messi",
+							"description": "Mago",
+							"health": "20",
+							"strenght": "30"
+						},
+						{
+							"name": "Paco",
+				      "description": "tank",
+			        "health": "30",
+			        "strenght": "20"
+						},
+						{
+					  	"name": "Mariana",
+				      "description": "range",
+							"health": "22",
+							"strenght": "28"
+						}
+							]
+						}
+}
+

@@ -52,8 +52,14 @@ class Player:
 				level_cur = level
 		return level_cur
 		
-	def hurt (self):
+	def hurt (self,damage):
 		self.health -= damage
+		print("Ahora tienes " + str(self.health) + " puntos de vida.")
+		print()
+
+
+	def dead (self):
+		return self.health
 
 	def attack (self):
 		return random.randint(0, self.strength)
@@ -67,7 +73,7 @@ class Player:
 		print("XP: "+str(self.xp))
 
 	def input_info (self):
-		self.name = input("Introduce el nombre: ")
+		self.name = input("Introduce el nombre de tu personaje: ")
 		self.health = int(input("Introduce la vida: "))
 		self.strength = int(input("Introduce la fuerza: "))
 		self.xp = int(input("Introduce la xp: "))

@@ -35,11 +35,11 @@ print("HP inicial del jugador: " + str(jugadorhealth))
 while jugadorhealth != 0 or enemigo1health != 0:
 	
 
-	daño = str(input("Quieres atacar?, escribe ataca: "))
+	damage = str(input("Quieres atacar?, escribe ataca: "))
 	print()
 	randomdaño = random.randint(0,5)
 
-	if daño == "ataca":
+	if damage == "ataca":
 
 		enemigo1health = int(enemigo1health) - randomdaño
 
@@ -51,7 +51,7 @@ while jugadorhealth != 0 or enemigo1health != 0:
 		print("El enemigo te ha atacado, te ha quitado: " + str(randomdañoplayer) + " puntos de vida, ahora tienes: " + str(jugadorhealth) + " puntos de vida.")
  
 	
-	if daño != "ataca":
+	if damage != "ataca":
 		print("Input incorrecto, escribe ataca")
 	
 

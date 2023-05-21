@@ -24,9 +24,9 @@ class Enemy:
 		print("Name: " + self.name)
 		print("Health: " + str(self.health))
 		print("Strength: " + str(self.strength))
-		
-		if self.description != "":
-			print("Description: " + self.description)
+		print("Description: " + self.description)	
+#		if self.description != "":
+#			print("Description: " + self.description)
 	
 	def hurt (self,damage):
 		self.health = self.health - damage
