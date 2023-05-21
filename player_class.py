@@ -1,8 +1,9 @@
+
 #!/usr/bin/python3
 
 
 import xmltodict
-
+import random
 class Player:
 
 	def __init__(self,name="",health = 100,strength = 10, level = 1, xp = 0):
@@ -18,15 +19,15 @@ class Player:
 
 		tmp = levels["levels"]["level"]
 
-		print(tmp)
+	#	print(tmp)
 	
 		self.levels = {}
 
 		for level in tmp:
-			print(level)
+	#		print(level)
 			self.levels[ int(level["@num"]) ] = int (level["@xp"])
 
-		print(self.levels)
+	#	print(self.levels)
 
 	def set_health (self,health):
 		self.health = health
@@ -103,9 +104,9 @@ class Player:
 			 			
 
 
-if __name__ == "__main__":
-	player = Player("Juan Ramon")
-	player.get_level(100)
+#if __name__ == "__main__":
+#	player = Player("Juan Ramon")
+#	player.get_level(100)
 
 	
 	

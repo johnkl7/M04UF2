@@ -13,7 +13,7 @@ class Enemy:
 		self.strength = strength
 		self.description = description
 
-		print(self.name + ": " + self.description)
+#		print(self.name + ": " + self.description)
 
 
 	def attack (self):

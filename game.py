@@ -5,14 +5,16 @@ from enemies_class import Enemies
 from player_class import Player
 
 player = Player()
-enemies = Enemies()
+enemies = Enemies() 
 
 def game ():
 	salir = False
 	while not salir:
+
+		enemy_counter = 1
 		print("Te ataca un enemigo")
 
-		enemies.show_info()
+		enemies.show_info(enemy_counter)
 
 		opc = input("¿Que quieres hacer?")
 
@@ -50,4 +52,4 @@ if __name__ == "__main__":
 			player.show_info()
 
 
-		#game()
+		game()

@@ -18,8 +18,8 @@ class Enemies:
 		for e in enemies_list:
 			self.enemies.append(Enemy(e["name"], e["health"], e["strenght"], e["description"]))		
 
-	def show_info(self):
-		self.enemies[self.enemy_counter].show_info()
+	def show_info(self,enemy_counter):
+		self.enemies[enemy_counter].show_info()
 
 	def hurt(self, damage):
 		dead = self.enemies[self.enemy_counter].hurt(damage)
